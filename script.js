@@ -1,13 +1,9 @@
-
+// Create the student object
 const student = {
-  name: "John",
-	city: "Parli"
+  name: "John"
 };
-function getKyes(obj){
-	
-	return obj.keys(obj) ;
-	
+
+// Function to get all keys from an object
+function getKeys(obj) {
+  return Object.keys(obj);
 }
-
-
-console.log(getKeys(student)); 
