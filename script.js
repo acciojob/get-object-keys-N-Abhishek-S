@@ -5,7 +5,7 @@ const student = {
 };
 function getKyes(obj){
 	
-	return object.keys(obj) ;
+	return obj.keys(obj) ;
 	
 }
 
