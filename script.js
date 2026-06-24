@@ -1,11 +1,11 @@
 
 const student = {
-  name: "John"
+  name: "John",
+	city: "Parli"
 };
 function getKyes(obj){
-	let object = obj;
-	let result = object.value;
-	return result ;
+	
+	return object.keys(obj) ;
 	
 }
 
